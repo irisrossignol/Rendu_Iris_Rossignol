@@ -1,0 +1,134 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.index {
+  background-image: url("z.Snow.jpg");
+}
+
+body.about {
+  background-image: url("z.arena.webp");
+}
+
+body.contact {
+  background-image: url("z.contact.jpg");
+}
+nav {
+  background-color: black;
+  padding: 0.1%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: black;
+  background-color: white;
+  padding: 0.4%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.titre {
+  text-align: center;
+  color: white;
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+}
+
+a:hover {
+   color: #83062d;
+}
+
+main {
+  color: white;
+  text-align: center;
+}
+
+main > p {
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 18px;
+}
+
+.inscr {
+  text-align: left;
+  margin-left: 14%;
+  margin-top: 8%;
+  color: #6F0124;
+  font-size: 40px;
+}
+
+.ici {
+  margin-top: 3%;
+  font-size: 28px;
+    text-decoration: none;
+}
+
+.nom {
+    text-align: left;
+    margin-left: 15%;
+}
+
+
+.prenom {
+text-align: left;
+margin-left: 13.7%;
+}
+
+.district {
+text-align: left;
+margin-left: 13.8%;
+}
+
+.envoyer {
+text-align: left;
+margin-left: 20%;
+}
+
+
+.foot {
+    position: fixed;
+    bottom: 0; 
+    padding: 10px; 
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.foot i {
+    margin: 2px;
+}
+
+.derniertxt {
+    margin-bottom: 100px;
+}
+
+.title {
+    background-color: rgb(76, 0, 0);
+ width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+}
+
+#premiertxt {
+    margin-top: 15px;
+}
